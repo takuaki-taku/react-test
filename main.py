@@ -5,6 +5,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
+    "https://react-test-roan-alpha.vercel.app/"
 ]
 
 app.add_middleware(
