@@ -6,6 +6,7 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",
     "https://react-test-roan-alpha.vercel.app"
+    "https://react-test-offkrbrd7-takuaki-takus-projects.vercel.app"
 ]
 
 app.add_middleware(
